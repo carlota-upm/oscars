@@ -2,7 +2,7 @@ FROM jupyter/minimal-notebook
 
 RUN pip install mysql-connector-python
 
-RUN pip install carlota-upm-oscars
+RUN pip install cn_modulo_oscars
 
 EXPOSE 8888
 
