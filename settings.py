@@ -4,7 +4,7 @@ DB_SETTINGS = {
     'host':'db',
     'user':'root',
     'password':'example',
-    'database':'booking'
+    'database':'oscars'
 }
 
 BaseManager.set_connection(DB_SETTINGS)
