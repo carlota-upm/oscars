@@ -17,4 +17,4 @@ services:
     carlota-upm-oscars:
         image: carlota-upm-oscars
         ports:
-          - 8585:8888
+          - 8888:8888
