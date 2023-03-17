@@ -5,7 +5,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "sales_module" #Nombre del módulo
+name = "oscars" #Nombre del módulo
 version = "0.0.1"
 authors = [
     { name="carlota-upm", email="carlota.medrano@alumnos.upm.es" },
@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/carlota-upm/IBD"
-"Bug Tracker" = "https://github.com/carlota-upm/IBD/issues"
+"Homepage" = "https://github.com/carlota-upm/oscars"
+"Bug Tracker" = "https://github.com/carlota-upm/oscars/issues"
 
 
 
