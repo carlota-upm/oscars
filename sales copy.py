@@ -8,7 +8,7 @@ import datetime
 cnx = sql.connect(user='root', 
                   password='example',
                   host='db',
-                  database='booking')
+                  database='oscars')
 
 # Creamos la clase BaseManager 
 
@@ -113,9 +113,13 @@ class BaseModel(metaclass=MetaModel):
 
 # Crear las clases que definen las tablas
 
-class Sale(BaseModel):
+class movies(BaseModel):
        manager_class = BaseManager
-       table_name = "sales"
+       table_name = "movies"
+      
+class directors(BaseModel):
+       manager_class = BaseManager
+       table_name = "directors"
        
 # Conexión a la base de datos
 
