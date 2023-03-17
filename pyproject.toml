@@ -5,7 +5,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "carlota-upm-oscars" #Nombre del módulo
+name = "cn_modulo_oscars" #Nombre del módulo
 version = "0.0.1"
 authors = [
     { name="carlota-upm", email="carlota.medrano@alumnos.upm.es" },
